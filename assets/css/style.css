@@ -580,13 +580,56 @@ section {
     max-width: 90%;
   }
 }
+/*--------------------------------------------------------------
+# Vision
+--------------------------------------------------------------*/
+.vision-section .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0  0 40px 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.vision-section .icon-box:hover {
+  transform: translateY(-5px);
+  border-color: #ef7f4d;
+}
+
+.vision-section .icon i {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #ef7f4d;
+}
+
+.vision-section .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.vision-section .title a {
+  color: #111;
+}
+
+.vision-section .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 
 
-      *{
+      /* *{
     margin:0;
     padding:0;
     font-family:sans-serif;
@@ -596,7 +639,7 @@ section1{
     height:100vh;
     background-color:#ccc;
      overflow:scroll;
-}
+} */
 
 .platform__wrapper{
    
@@ -623,10 +666,10 @@ section1{
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     
 }
-.cards > .card:hover {
+/* .cards > .card:hover {
     transform: translate3d(25px, 25px, 50px);
     border:3px solid orange;
-}
+} */
 .card__wrapper{
     width:90%;
     height:100%;
