@@ -781,6 +781,16 @@ font-size: 48px;
   width: 100%;
   background: rgba(0,0,0,0.8);
 }
+.test-img{
+  height:400px;
+
+}
+.testimonial-img {
+  width: 100px !important;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
 .counter-up .content{
   z-index: 1;
   position: relative;
