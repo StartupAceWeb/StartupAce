@@ -8,10 +8,17 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
+  margin: 0;
+  padding: 0;
 }
+
 
 a {
   color: #eb5d1e;
@@ -710,7 +717,12 @@ font-size: 48px;
   }
   
 
+.description{
+  width: 100%;
+  display: flex;
+  align-items:center;
 
+}
 
 .card__wrapper > p{
     font-size:18px;
@@ -1262,16 +1274,16 @@ font-size: 48px;
 
 
 
-.contact{
+/*.contact{
     position: relative;
     min-height: 100vh;
-    padding: 50px 100px;
+    padding: 10px;
     display: 
     flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(https://images.unsplash.com/photo-1619630110059-13c4617ca2be?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8Ym84alFLVGFFMFl8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background: url(https://wallpaperaccess.com/full/44211.jpg);
 background-size: cover;
 }
 .contact__heading{
@@ -1280,7 +1292,8 @@ background-size: cover;
     
 display: flex;
 align-items: center;
-justify-content: center;    
+justify-content: center;
+width: 100%;    
 }
 
 .contact__heading h2{
@@ -1289,17 +1302,9 @@ justify-content: center;
     font-family: sans-serif !important;
     position: relative;
     color: lightgray !important;
-}
-.contact__heading h2::before{
-    content: "let's talk";
-    font-size: 55px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: black;
-    
     
 }
+
 .contact .content{
     max-width: 800px;
     text-align: center;
@@ -1326,6 +1331,7 @@ justify-content: center;
 .container .contactInfo{
     width: 50%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 .container .contactInfo .box{
@@ -1411,6 +1417,138 @@ justify-content: center;
     font-size: 18px;
 
 
+}*/
+section{
+  width:100%;
+padding:15px;  
+
+}
+.contact__header{
+  width:100%;
+  height:55px;
+  display:flex;
+  align-items:center;
+  
+}
+.contact__header h1{
+  font-size:45px;
+}
+.contact__main{
+  height:95%;
+  margin:25px auto;
+  display:grid;
+  grid-template-columns:.5fr .5fr;
+  grid-gap:45px;
+}
+.contact__form{
+  width:100%;
+  
+  
+}
+
+.form__field{
+  width:85%;
+  height:48px;
+  border:1px solid #dbdbdb;
+  margin-bottom:15px;
+  position:relative;
+  display:flex;
+  align-items:center;
+  border-radius:10px;
+  
+  
+}
+.form__field input{
+  width:100%;
+  height:100%;
+  border:0;
+  outline:0;
+  background:none;
+}
+.form__field label{
+  position:absolute;
+  font-size:14px;
+  color:#ccc;
+  font-weight:400;
+  font-family:sans-serif;
+  left:10px;
+  transition:all .3s ease-in-out;
+ 
+}
+
+.form__field input:focus+label{
+
+  top:-10px;
+  background-color:#fff;
+}
+
+.form__textarea{
+  width:85%;
+  height:110px;
+  border:1px solid #dbdbdb;
+  border-radius:10px;
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+.form__textarea textarea{
+  width:100%;
+  height:100%;
+  border:none;
+  outline:0;
+  background-color:transparent;
+  resize:none;
+}
+.form__textarea label{
+  position:absolute;
+  left:10px;
+  color:#ccc;
+  font-size:14px;
+  font-family:sans-serif;
+}
+
+.form__textarea > textarea:focus+label{
+  top:-10px;
+  background:#fff;
+}
+
+form button{
+  width:85%;
+  height:48px;
+  margin-top:15px;
+  background-color:rgb(253, 112, 118);
+  color:#fff;
+  font-size:16px;
+  border:0;
+  outline:0;
+  border-radius:10px;
+}
+
+.contact__info{
+  margin-right:10px;
+  
+}
+.contact__info p{
+  font-size:22px;
+  width:65%;
+  margin:0;
+  margin-bottom:10px;
+     font-family:sans-serif;
+}
+.contact__info span{
+  display:block;
+  line-height:25px;
+  font-size:19px;
+  font-family:sans-serif;
+}
+.contact__detail__header{
+  font-size:35px;
+  font-family:sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .contact__main{
+      display:block;
+  }
 }
 /*--------------------------------------------------------------
 # Footer
@@ -1418,9 +1556,10 @@ justify-content: center;
 footer{
   
   width:100%;
-  padding:1.5rem;
+  padding:45px;
   background-color:blue;
-  height:350px;
+  height: 350px;
+  
   box-shadow:0px -10px 10px rgba(0,0,0,.115);
 }
 .footer__wrapper{
@@ -1429,6 +1568,7 @@ footer{
   display:flex;
   flex-direction:column;
   align-items:flex-start;
+  height: 100%;
 }
 
 .footer__top{
@@ -1461,4 +1601,39 @@ footer{
 .social__links > a i{
   margin-right:15px;
   font-size:18px !important;
+
 }
+.bottom__fotter{
+  height: 75px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  
+}
+
+@media only screen and (max-width: 690px){
+  .footer__top{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+  }
+  footer {
+    height: 750px;
+  }
+}
+@media only screen and (max-width: 790px){
+  .cards{
+    grid-template-columns: 1fr;
+  }
+  .card__wrapper h3
+  {
+   font-size: 20px; 
+  }
+  .contact__heading h2{
+    font-size: 45px !important;
+    width: 100% !important;
+  }
+}
+
