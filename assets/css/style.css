@@ -347,9 +347,105 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Main Section
 --------------------------------------------------------------*/
-#hero {
+
+.owl-carousel {
+  width:100%;
+  height:100vh;
+
+}
+.slide {
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  position:relative;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.slide::before {
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100vh;
+  
+  background-color:rgba(0, 0, 0, 0.349);
+}
+.slide-1 {
+  background-image: url(../img/architecture-5084075_1280.jpg);
+}
+.slide-2{
+  background-image: url(../img/computer-4484282_1280.jpg);
+}
+.slide-3 {
+  background-image: url(../img/entrepreneur-1340649_1280.jpg);
+}
+.slide-content {
+  text-align: center;
+  position:absolute;
+  top: 50%;
+  transform:translateY(-50%);
+  color: #fff;
+  padding: 0 40%;
+}
+.slide-content h1 {
+  font-family: "Anton", serif;
+  font-size:45px;
+  text-transform: uppercase;
+}
+.slide-content p{
+  font-family:"Lato",serif;
+  font-size:18px;
+  margin-bottom: 20px;;
+}
+.slide-content button {
+  font-family: "Roboto", serif;
+  font-size:25px;
+  text-transform:uppercase;
+  font-weight:bolder;
+  padding: 10px 25px;
+  border:none;
+  border-radius:10px;
+}
+.owl-dots {
+  width:100%;
+  text-align:center;
+  position:absolute;
+  bottom:1%;
+}
+.owl-dots span{
+  width:20px !important;
+  height:20px !important;
+}
+.owl-dots button {
+  border:none !important;
+  outline:none !important;
+}
+.owl-nav button {
+  border:none !important;
+  outline:none !important;
+
+}
+.owl-prev, .owl-next{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  color:#fff !important;
+  font-size: 60px !important;
+  font-weight:bolder !important;
+  background: none !important;
+}
+.owl-prev {
+  left:1%;
+
+}
+.owl-next {
+  right:1%;
+}
+/* #hero {
   width: 100%;
   height: 70vh;
   background: #f8f5fe;
@@ -452,7 +548,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   100% {
     transform: translateY(-10px);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Sections General

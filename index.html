@@ -8,7 +8,8 @@
   <title>StartupAce</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
- 
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -34,7 +35,7 @@
 </head>
 
 <body>
-  <p>New Change</p>
+  
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container-fluid d-flex">
@@ -79,8 +80,33 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-
-    <div class="container">
+    <div class="owl-carousel owl-theme">
+      <div class="slide slide-1">
+        <div class="slide-content">
+          <h1>Welcome to Startup Ace</h1>
+          <p>We're In The Business Of Helping You Start Your Business</p>
+          
+          <button>Know more</button>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide-content">
+          <h1>Build together</h1>
+          <p>Get the best people onboard</p>
+          <button>View Services</button>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide-content">
+          <h1>Who we Are</h1>
+          <p>Connect with us</p>
+          <button>Contact us</button>
+        </div>
+      </div>
+      
+      
+    </div>
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <h1>Give a Boost to your startup</h1>
@@ -91,7 +117,7 @@
           <img src="assets/img/hero-img.svg" class="img-fluid animated" alt="">
         </div>
       </div>
-    </div>
+    </div> -->
 
   </section><!-- End Hero -->
 
@@ -331,7 +357,7 @@
 
 
 
-    <section class="platform section-bg">
+    <section id="services" class="platform section-bg">
         <div class="platform__wrapper">
             <div class="textual-info">
             <h3>Featuring</h3>
@@ -880,7 +906,7 @@
         </div>
     </section>
     <!-- End Contact Us Section -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="contact__header">
           <h1>Contact Us</h1>
       </div>
@@ -952,6 +978,36 @@
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
+<script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<!-- <script>
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+</script> -->
+<script>
+  $('.owl-carousel').owlCarousel({
+    items:1,
+    loop:true,
+    nav:true,
+    dots:true,
+    autoplay:true,
+    autoplaySpeed:1000,
+    smartSpeed:1500,
+    autoplayHoverPause:true,
+    // responsive:{
+    //     0:{
+    //         items:1
+    //     },
+    //     600:{
+    //         items:1
+    //     },
+    //     1000:{
+    //         items:1
+    //     }
+    // }
+})
+</script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
