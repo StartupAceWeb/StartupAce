@@ -670,14 +670,33 @@ section {
   color: #5a6570;
 }
 .button1 {
-  background-color: white;
-  color: black;
-  border: 2px solid #7a4caf;
-}
+    width:20%;
+    height:40px;
+    margin-top:15px;
+    background-color:rgb(138, 112, 253);
+    color:#fff;
+    font-size:16px;
+    border:0;
+    outline:0;
+    border-radius:10px;
+  }
+  
+
 
 .button1:hover {
-  background-color: #7a4caf;
-  color: white;
+  
+    width:20%;
+    height:40px;
+    margin-top:15px;
+    background-color:rgb(115, 98, 194);
+    color:#fff;
+    font-size:16px;
+    border:0;
+    outline:0;
+    border-radius:10px;
+    transition: 0.5 ease-in-out;
+  }
+  
 }
 #line {
   height:4px;
@@ -1766,10 +1785,11 @@ footer{
 .bottom__fotter{
   height: 75px;
   font-size: 18px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(138, 144, 226);
+  background: rgb(44, 47, 90);
   
 }
 
