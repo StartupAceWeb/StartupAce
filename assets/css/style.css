@@ -669,6 +669,16 @@ section {
   font-size: 15px;
   color: #5a6570;
 }
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #7a4caf;
+}
+
+.button1:hover {
+  background-color: #7a4caf;
+  color: white;
+}
 #line {
   height:4px;
   width:60px;
@@ -686,6 +696,7 @@ section {
     max-width: 90%;
   }
 }
+
 /*--------------------------------------------------------------
 # Vision
 --------------------------------------------------------------*/
