@@ -584,6 +584,35 @@ section {
   font-size: 15px;
   color: #5a6570;
 }
+.button1 {
+    width:20%;
+    height:40px;
+    margin-top:15px;
+    background-color:rgb(138, 112, 253);
+    color:#fff;
+    font-size:16px;
+    border:0;
+    outline:0;
+    border-radius:10px;
+  }
+  
+
+
+.button1:hover {
+  
+    width:20%;
+    height:40px;
+    margin-top:15px;
+    background-color:rgb(115, 98, 194);
+    color:#fff;
+    font-size:16px;
+    border:0;
+    outline:0;
+    border-radius:10px;
+    transition: 0.5 ease-in-out;
+  }
+  
+}
 #line {
   height:4px;
   width:60px;
@@ -601,6 +630,7 @@ section {
     max-width: 90%;
   }
 }
+
 /*--------------------------------------------------------------
 # Vision
 --------------------------------------------------------------*/
@@ -1462,6 +1492,15 @@ footer{
   font-size:18px;
   font-weight:400;
 }
+.site__links >a:hover{
+  color:rgb(0, 0, 0);
+  transition: o.8 ease-in-out;
+}
+.social__links >a:hover{
+  color:rgb(0, 0, 0);
+  transition: o.8 ease-in-out;
+}
+
 .social__links > a i{
   margin-right:15px;
   font-size:18px !important;
@@ -1470,10 +1509,11 @@ footer{
 .bottom__fotter{
   height: 75px;
   font-size: 18px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(138, 144, 226);
+  background: rgb(44, 47, 90);
   
 }
 
