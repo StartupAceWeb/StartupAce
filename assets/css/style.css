@@ -1738,6 +1738,15 @@ footer{
   font-size:18px;
   font-weight:400;
 }
+.site__links >a:hover{
+  color:rgb(0, 0, 0);
+  transition: o.8 ease-in-out;
+}
+.social__links >a:hover{
+  color:rgb(0, 0, 0);
+  transition: o.8 ease-in-out;
+}
+
 .social__links > a i{
   margin-right:15px;
   font-size:18px !important;
