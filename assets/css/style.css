@@ -102,8 +102,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
-  max-height: 40px;
+  margin-left: 20px;
+  max-height: 55px;
 }
 
 #main {
@@ -616,7 +616,6 @@ section {
     border-radius:10px;
     transition: 0.5 ease-in-out;
   }
-  
 
 #line {
   height:4px;
