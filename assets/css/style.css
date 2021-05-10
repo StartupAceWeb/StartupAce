@@ -633,12 +633,17 @@ section {
   }
   .button1 {
     width:40%;
+    font-size:10px
   }
 }
 
 @media (max-width: 767px) {
   .about .about-img img {
     max-width: 90%;
+  }
+  .button1 {
+    width:40%;
+    font-size:10px
   }
 }
 
@@ -839,6 +844,37 @@ font-size: 48px;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }*/
+
+
+/*--------------------------------------------------------------
+# blog
+--------------------------------------------------------------*/
+/* 
+body {
+  padding: 2rem 0rem;
+} */
+
+.card-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-title {
+  margin-bottom: 0.3rem;
+}
+
+.cat {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.fa-users {
+  margin-left: 1rem;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
 /*--------------------------------------------------------------
 # Counter
 --------------------------------------------------------------*/
@@ -945,37 +981,6 @@ font-size: 48px;
     padding: 30px 20px 0 20px;
   }
 }
-
-/*--------------------------------------------------------------
-# blog
---------------------------------------------------------------*/
-/* 
-body {
-  padding: 2rem 0rem;
-} */
-
-.card-img {
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-.card-title {
-  margin-bottom: 0.3rem;
-}
-
-.cat {
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
-.fa-users {
-  margin-left: 1rem;
-}
-
-.card-footer {
-  font-size: 0.8rem;
-}
-
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
@@ -1482,6 +1487,7 @@ footer{
   grid-template-columns:1fr 1fr 1fr;
   height:330px;
 }
+
 .site__links,.social__links{
   display:flex;
   flex-direction:column;
