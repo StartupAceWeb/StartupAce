@@ -1561,6 +1561,9 @@ ul {
   color: #fff;
   text-transform: capitalize;
 }
+.footer-social-icon .linkedin-bg{
+  background-color: #0a66c2;
+}
 /* .subscribe-form {
   position: relative;
   overflow: hidden;
