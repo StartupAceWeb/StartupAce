@@ -709,7 +709,7 @@ section {
 
 
 .button2 {
-    width:40%;
+    width:60%;
     height:40px;
     margin-top:15px;
     background-color:rgb(138, 112, 253);
@@ -724,7 +724,7 @@ section {
 
 .button2:hover {
   
-    width:40%;
+    width:60%;
     height:40px;
     margin-top:15px;
     background-color:rgb(115, 98, 194);
@@ -735,14 +735,24 @@ section {
     border-radius:10px;
     transition: 0.5 ease-in-out;
   }
-
+.platform__wrapper h3 {
+  font-weight: 700;
+}
+.platform__wrapper h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color:rgb(138, 112, 253);
+}
 .platform__wrapper{
    
-    width:100%;
-    margin:65px auto;
+    /* width:100%; */
+    margin-left: 180px;
+    margin-top:100px;
     display:grid;
-    grid-template-columns:.5fr 1fr;
-    grid-gap:25px;
+    text-align: center;
+    line-height: 30px;
+    grid-template-columns:.5fr .1fr;
+    grid-gap:70px 100px;
     
 }
 
@@ -750,17 +760,19 @@ section {
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
-    grid-gap:15px;
+   /* grid-column-gap:20px; */
+    grid-gap:20px 100px;
+    
     
 }
 .cards > .card{
-    width:
-    100%;
-    
+    width:300px;
+    height:auto;
+    /* font-size: 10px;; */
     background-color:rgb(255, 255, 255);
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     border: 4px solid rgb(255, 255, 255);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.2s ease-in-out;
     border-radius: 15px;
     
     
@@ -780,11 +792,13 @@ section {
 .card__wrapper{
     width:90%;
     height:100%;
-    margin:15px auto;
-    display:flex;
-    flex-direction:column;
+    margin:0;
+    /* display:flex; */
+    /* flex-direction:column; */
     align-items:center;
-    justify-content:flex-start;
+    align-content: center;
+    justify-content:center;
+    text-align: justify;
     
 }
 
@@ -794,7 +808,13 @@ section {
     background-color:#ccc;
     margin-bottom:15px;
 */
-font-size: 48px;
+padding-top: 20px;
+align-items:center;
+    align-content: center;
+    justify-content:center;
+    text-align: center;
+/* text-align: :center; */
+font-size: 70px;
   line-height: 1;
   margin-bottom: 15px;
   color: #864def;}
@@ -810,6 +830,10 @@ font-size: 48px;
   width: 100%;
   display: flex;
   align-items:center;
+   font-size: 15px;
+  line-height: 28px;
+  margin-left: 10px;
+  /* padding-bottom: 30px; */
 
 }
 
@@ -819,22 +843,36 @@ font-size: 48px;
     text-align:center;
     
     margin-top:15px;
-    margin-bottom:15px;
-    font-weight: 350;
+    margin-bottom:0;
+    font-weight: 700;
 }
 
 .read__more{
     color:#4b1eeb;
     text-decoration:none;
-    font-size:20px;
+    /* font-size:20px; */
+     font-size: 18px;
+  /* line-height: 28px; */
+  margin-bottom: 0;
+  font-weight: 300;
+  /* text-align: center !important; */
+  /* padding-bottom: 60px; */
 }
-
+#contact_img{
+  height: 300px;
+  width:60%;
+}
 @media screen and (max-width:980px){
     .platform__wrapper{
-         grid-template-columns:1fr;
+         grid-template-columns:.1fr;
+          margin-left: 20px;
+    margin-top:10px;
     }
 }
 /*.user__avatar{
+
+/* testimonials  */
+.user__avatar{
   margin-bottom: 15px;
   border-radius:70%;
   border: 6px solid rgba(255, 255, 255, 0.15);
@@ -1291,166 +1329,6 @@ body {
 # Contact Us
 --------------------------------------------------------------*/
 
-
-
-
-
-
-/*.contact{
-    position: relative;
-    min-height: 100vh;
-    padding: 10px;
-    display: 
-    flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(https://wallpaperaccess.com/full/44211.jpg);
-    background: url(https://images.unsplash.com/photo-1558439968-2ee0a2b07e4b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80);
-background-size: cover;
-}
-.contact__heading{
-    height: 150px;
-    
-    
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;    
-}
-
-.contact__heading h2{
-    font-size: 115px !important;
-    font-weight: 900 !important;    
-    font-family: sans-serif !important;
-    position: relative;
-    color: lightgray !important;
-    
-}
-
-    color: rgb(211, 211, 211) !important;
-}
-/*.contact__heading h2::before{
-    content: "let's talk";
-    font-size: 55px;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: #00bcd4;
-    
-    
-}*/
-/*.contact .content{
-    max-width: 800px;
-    text-align: center;
-}
-.contact .content h2{
-    font-size: 36px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-}
-.contact .content p{
-    
-    font-weight: 300;
-    color: rgb(255, 255, 255);
-}
-.container{
-    width: 100%;
-     display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin-top: 30px;
-
-}
-
-.container .contactInfo{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-.container .contactInfo .box{
-    position: relative
-    ;
-    padding: 20px 0;
-    display: flex;
-
-}
-.container .contactInfo .box .icon{
-    min-width: 60px;
-    height: 60px;
-    background: rgb(255, 255, 255)
-    ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 22px;
-}
-.container .contactInfo .box .text{
-    display: 
-    flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color:rgb(255, 255, 255);
-    flex-direction: column;
-    font-weight: 300;
-}
-.container .contactInfo .box .text h3{
-    font-weight: 500;
-    color: #00bcd4;
-}
-.contactForm{
-    width: 40%;
-    padding: 40px;
-    background: rgb(255, 255, 255);
-}
-.contactForm h2{
-    font-size: 30px;
-    color: rgb(51, 51, 51);
-    font-weight: 500;
-}
-.contactForm .inputBox{
-    position: relative
-    ;
-    width: 100%;
-    margin-top: 10px;
-}
-.contactForm .inputBox input,.contactForm .inputBox textarea{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid rgb(51, 51, 51);
-    outline: none;
-}
-.contactForm .inputBox span{
-    position: absolute;
-    left: 0;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    pointer-events: none;
-    transition: 0.5s;
-    color: rgb(102, 102, 102);
-}
-.contactForm .inputBox input:focus ~ span,.contactForm .inputBox input:valid ~ span
-.contactForm .inputBox textarea:focus ~ span,.contactForm .inputBox textarea:valid ~ span{
-    color: #1e76e9;
-    font-size: 12px;
-    transform: translateY(-20px);
-}
-.contactForm .inputBox input[type="submit"]{
-    width: 100px;
-    background: #00bcd4;
-    color: #fff;
-    border: none;
-    cursor: pointer
-    ;
-    padding: 10px;
-    font-size: 18px;
-  }*/
 
 section{
   width:100%;
