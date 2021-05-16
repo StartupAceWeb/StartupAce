@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.d-flex{
+  display: flex !important;
+}
 #header {
   height: 72px;
   transition: all 0.5s;
@@ -1969,12 +1972,21 @@ ul {
   background: #4b1eeb;
 }
 .footer-widget ul li {
-  display: grid;
+  /*display: grid;
   grid-column: 1;
   grid-column-gap:2px;
- /* float: left;*/
+ /* float: left;
   width: 50%;
   margin-bottom: 12px;
+  list-style: none;*/
+  padding: 10px 0;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.footer-widget ul{
+  padding: 0;
 }
 .footer-widget ul li a:hover {
   color: #0099ff;
