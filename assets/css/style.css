@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.d-flex{
+  display: flex !important;
+}
 #header {
   height: 72px;
   transition: all 0.5s;
@@ -84,6 +87,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 15px 0;
   background: rgb(255, 255, 255);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  
 }
 
 #header .logo h1 {
@@ -347,6 +351,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: rgb(255, 255, 255);
+}
+.d-flex{
+  display: flex !important;
 }
 
 /*--------------------------------------------------------------
@@ -715,7 +722,6 @@ section {
   height:4px;
   width:60px;
   background-color: #5c40dbd8;
-  margin-bottom:30px;;
 }
 @media (max-width: 991px) {
   .about .about-img img {
@@ -728,6 +734,10 @@ section {
     width:40%;
     font-size:10px
   }
+  .button1:hover {
+    width:40%;
+    font-size:10px
+  }
 }
 
 @media (max-width: 767px) {
@@ -735,6 +745,10 @@ section {
     max-width: 90%;
   }
   .button1 {
+    width:40%;
+    font-size:10px
+  }
+  .button1:hover{
     width:40%;
     font-size:10px
   }
@@ -839,7 +853,7 @@ section {
 }
 .platform__wrapper{
    
-    /* width:100%; */
+     /*width:100%; */
     margin-left: 180px;
     margin-top:100px;
     display:grid;
@@ -1269,7 +1283,7 @@ body {
 }
 .section{
   background: url("images/bg-1.jpg") no-repeat;
-  height: 100vh;
+  height: 50%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1424,10 +1438,11 @@ body {
 --------------------------------------------------------------*/
 
 
-section{
+.contact{
   width:100%;
 padding:15px;  
-
+margin-left: 5%; 
+margin-right: 5%;
 }
 
 .contact__header{
@@ -1747,10 +1762,21 @@ ul {
   background: #4b1eeb;
 }
 .footer-widget ul li {
-  display: inline-block;
-  float: left;
+  /*display: grid;
+  grid-column: 1;
+  grid-column-gap:2px;
+ /* float: left;
   width: 50%;
   margin-bottom: 12px;
+  list-style: none;*/
+  padding: 10px 0;
+    display: flex;
+    align-items: center;
+    
+  
+}
+.footer-widget ul{
+  padding: 0;
 }
 .footer-widget ul li a:hover {
   color: #0099ff;
