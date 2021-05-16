@@ -352,6 +352,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav-active .mobile-nav-toggle i {
   color: rgb(255, 255, 255);
 }
+.d-flex{
+  display: flex !important;
+}
 
 /*--------------------------------------------------------------
 # Main Section
@@ -881,7 +884,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  height: 80vh;
+  height: 90vh;
 }
 .about h3 {
   font-weight: 700;
@@ -953,6 +956,10 @@ section {
     width:40%;
     font-size:10px
   }
+  .button1:hover {
+    width:40%;
+    font-size:10px
+  }
 }
 
 @media (max-width: 767px) {
@@ -960,6 +967,10 @@ section {
     max-width: 90%;
   }
   .button1 {
+    width:40%;
+    font-size:10px
+  }
+  .button1:hover{
     width:40%;
     font-size:10px
   }
@@ -1649,10 +1660,11 @@ body {
 --------------------------------------------------------------*/
 
 
-section{
+.contact{
   width:100%;
 padding:15px;  
-
+margin-left: 5%; 
+margin-right: 5%;
 }
 
 .contact__header{
