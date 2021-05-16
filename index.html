@@ -1295,7 +1295,12 @@
  <script>
       $(document).ready(function(){
         $('#showbtn').click(function(){
-          $(".extra").show("slow","linear");
+          $('.platform').css({
+        
+        'height':'auto'
+    });          
+    $(".extra").show("slow","linear");
+
           $("#showbtn").hide();
         })
       })
