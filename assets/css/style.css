@@ -1281,18 +1281,18 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-.section{
+/* .section{
   background: url("images/bg-1.jpg") no-repeat;
-  height: 50%;
+  height: 20%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
+} */
 .wrapper{
   padding: 20px 50px;
 }
 .wrapper .title{
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -1302,7 +1302,7 @@ body {
 }
 .counter-up{
   background: url("images/bg-2.jpeg") no-repeat;
-  min-height: 50vh;
+  min-height: 25vh;
   background-size: cover;
   background-attachment: fixed;
   padding: 0 50px;
@@ -1339,14 +1339,14 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  padding: 20px;
+  padding: 10px;
 }
 .content .box .icon{
-  font-size: 48px;
+  font-size: 30px;
   color: #e6e6e6;
 }
 .content .box .counter{
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 500;
   color: #f2f2f2;
   font-family: sans-serif;
