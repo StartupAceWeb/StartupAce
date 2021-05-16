@@ -884,7 +884,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  height: 90vh;
+  height: 80vh;
 }
 .about h3 {
   font-weight: 700;
@@ -943,7 +943,6 @@ section {
   height:4px;
   width:60px;
   background-color: #5c40dbd8;
-  margin-bottom:30px;;
 }
 @media (max-width: 991px) {
   .about .about-img img {
