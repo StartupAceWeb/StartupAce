@@ -1974,7 +1974,6 @@ footer{
     height: 750px;
   }
 } */
-<<<<<<< HEAD
 @media only screen and (max-width:475px){
   .single-cta{
     display: inline-block;
@@ -1982,17 +1981,6 @@ footer{
     
   }
 }
-=======
-@media screen and (max-width:768px){
-  
- 
-.cta-text span{
-  font-size: 12px;;
-}
-
-}
-
->>>>>>> origin/main
 @media only screen and (max-width: 790px){
   .cards{
     grid-template-columns: 1fr;
