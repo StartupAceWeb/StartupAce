@@ -1670,30 +1670,60 @@ ul {
 .footer-section {
   background: #151414;
   position: relative;
+  width: 100% !important;
+  display: flex !important;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
   color:#4b1eeb;
-  font-size: 30px;
-  float: left;
-  margin-top: 8px;
+  font-size: 1.4375rem;
+  height: 45px;
+  width: 80px;
+  line-height: 45px;
+  text-align: center;
+  
+  
+  
+
+}
+.single-cta{
+display: flex !important;
+align-items:center !important;
+margin: 0 !important;
 }
 .cta-text {
-  padding-left: 15px;
+  
   display: inline-block;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+
 }
 .cta-text h4 {
   color: white;
 
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
+  line-height: 10px;
+  
+ 
 }
 .cta-text span {
   color: white;
   font-size: 15px;
+  /*display: flex !important;
+  align-items: center;
+*/
+line-height: 2;
+/*display: inline-block;
+vertical-align: middle;
+*/
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
 }
 .footer-content {
   position: relative;
@@ -1926,6 +1956,13 @@ footer{
     height: 750px;
   }
 } */
+@media only screen and (max-width:475px){
+  .single-cta{
+    display: inline-block;
+    margin: 12px;
+    
+  }
+}
 @media only screen and (max-width: 790px){
   .cards{
     grid-template-columns: 1fr;
