@@ -48,7 +48,7 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
+          <li class="active"><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#blog">Blog</a></li>
@@ -143,7 +143,7 @@
       
       
     </div>
-    <!-- <div class="container">
+    <div class="container">
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
           <h1>Give a Boost to your startup</h1>
@@ -275,7 +275,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div> -->
-    <div class="owl-carousel owl-theme">
+    <div class="owl-carousel owl-theme home-slide" id="home">
       <div class="slide slide-1">
         <div class="slide-content">
            <div class="content">
@@ -381,7 +381,7 @@
           <div class="col-lg-6 pt-5 pt-lg-0">
             <!-- About us -->
             <div data-aos="fade-up" id="line"></div>
-            <p data-aos="fade-up"data-aos-delay="50" style="line-height: 20px;padding-top: 40px;">TAKE A LOOK AT OUR</p>
+            <p data-aos="fade-up"data-aos-delay="50" style="line-height: 20px;padding-top: 10px;">TAKE A LOOK AT OUR</p>
             <h3 data-aos="fade-up">About us</h3>
             <p data-aos="fade-up" data-aos-delay="100" style="text-align: justify;line-height: 40px;
             text-justify: inter-word;" >
@@ -538,7 +538,7 @@
 
 
 <!-- Services  -->
-    <section id="services" class="platform ">
+    <section id="services" class="platform">
         <div class="platform__wrapper">
             <div class="textual-info">
             <h3 data-aos="fade-up">FEATURING</h3>
@@ -1158,7 +1158,7 @@
                   <h3>Useful Links</h3>
                 </div>
                 <ul>
-                  <li><a href="#header">Home</a></li>
+                  <li><a href="#home">Home</a></li>
                   <li><a href="#about">About us</a></li>
                   <li><a href="#services">Our Services</a></li>
                   <li><a href="#contact">Contact us</a></li>
@@ -1295,7 +1295,12 @@
  <script>
       $(document).ready(function(){
         $('#showbtn').click(function(){
-          $(".extra").show("slow","linear");
+          $('.platform').css({
+        
+        'height':'auto'
+    });          
+    $(".extra").show("slow","linear");
+
           $("#showbtn").hide();
         })
       })
