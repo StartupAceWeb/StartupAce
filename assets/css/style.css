@@ -656,7 +656,7 @@ section {
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
-    display: block !important;
+    /* display: block !important; */
   }
   .breadcrumbs ol {
     display: block;
@@ -878,7 +878,7 @@ section {
 }
 .platform__wrapper{
    
-     width:100% !important;
+     width:90% !important;
     margin-left: 180px;
     margin-top:100px;
     display:grid;
@@ -1478,8 +1478,8 @@ body {
 .contact{
   width:100%;
 padding:15px;  
-margin-left: 5%; 
-margin-right: 5%;
+/* margin-left: 5%; 
+margin-right: 5%; */
 }
 
 .contact__header{
