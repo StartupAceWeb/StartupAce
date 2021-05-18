@@ -357,6 +357,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 /* .d-flex{
   display: flex !important;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> refs/remotes/origin/main
 } */
 
 /*--------------------------------------------------------------
@@ -655,7 +659,7 @@ section {
 
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
-    display: block !important;
+    /* display: block !important; */
   }
   .breadcrumbs ol {
     display: block;
@@ -670,6 +674,11 @@ section {
 --------------------------------------------------------------*/
 .about {
   height: 80vh;
+}
+#abt-desc{
+  text-align: justify;
+  line-height: 40px;
+  text-justify: inter-word;
 }
 .about h3 {
   font-weight: 700;
@@ -730,8 +739,13 @@ section {
   background-color: #1236ab;
 }
 @media (max-width: 991px) {
+  #abt-desc{
+  line-height: 25px;
+  font-size: 14px;
+}
   .about .about-img img {
-    max-width: 70%;
+    height: 25vh;
+    
   }
   .about {
     height: auto;
@@ -747,6 +761,9 @@ section {
 }
 
 @media (max-width: 767px) {
+   #abt-desc{
+  line-height: 25px;
+}
   .about .about-img img {
     max-width: 90%;
   }
@@ -864,7 +881,7 @@ section {
 }
 .platform__wrapper{
    
-     width:100% !important;
+     width:90% !important;
     margin-left: 180px;
     margin-top:100px;
     display:grid;
@@ -1464,8 +1481,8 @@ body {
 .contact{
   width:100%;
 padding:15px;  
-margin-left: 5%; 
-margin-right: 5%;
+/* margin-left: 5%; 
+margin-right: 5%; */
 }
 
 .contact__header{
