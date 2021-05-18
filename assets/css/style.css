@@ -32,7 +32,7 @@ a:hover {
   }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -143,7 +143,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 20px;
   transition: 0.3s;
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -419,12 +419,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0 10%;
 }
 .slide-content h1 {
-  font-family: "Anton", serif;
+  font-family: "Roboto",sans-serif ;
   font-size:45px;
   text-transform: uppercase;
 }
 .slide-content p{
-  font-family:"Lato",serif;
+  font-family: "Nato Sans",sans-serif ;
   font-size:18px;
   margin-bottom: 20px;;
 }
@@ -604,6 +604,7 @@ section {
   padding-bottom: 15px;
   margin-bottom: 15px;
   position: relative;
+  font-family: "Nato Sans",sans-serif ;
   font-size: 32px;
   font-weight: 700;
   color: #393e4e;
@@ -680,11 +681,13 @@ section {
 .about h3 {
   font-weight: 700;
   font-size: 34px;
+  font-family: "Roboto",sans-serif ;
   color: #3c394e;
 }
 
 .about h4 {
   font-size: 20px;
+  font-family: "Roboto",sans-serif ;
   font-weight: 700;
   margin-top: 5px;
   color: #62607a;
@@ -697,6 +700,7 @@ section {
 }
 
 .about p {
+  font-family: "Nato Sans",sans-serif ;
   font-size: 15px;
   color: #5a6570;
   /* line-height:20em; */
@@ -972,6 +976,7 @@ font-size: 70px;
 }
 
 .card__wrapper > p{
+  font-family: "Nato Sans",sans-serif ;
     font-size:18px;
     color:rgb(0, 0, 0);
     text-align:center;
@@ -985,6 +990,7 @@ font-size: 70px;
     color:#1236ab;
     text-decoration:none;
     /* font-size:20px; */
+    font-family: "Nato Sans",sans-serif ;
      font-size: 18px;
   /* line-height: 28px; */
   margin-bottom: 0;
@@ -1386,7 +1392,7 @@ body {
   font-size: 30px;
   font-weight: 500;
   color: #f2f2f2;
-  font-family: sans-serif;
+  font-family:  "Roboto", sans-serif;
 }
 .content .box .text{
   font-weight: 400;
@@ -1419,6 +1425,7 @@ body {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
+  background-color: #f5f7fe;
 }
 
 .faq .faq-list {
@@ -1433,7 +1440,7 @@ body {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #1236ab;
+  font-family:  "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #1236ab;
@@ -1447,6 +1454,7 @@ body {
 }
 
 .faq .faq-list p {
+  font-family: "Nato Sans",sans-serif ;
   padding-top: 5px;
   margin-bottom: 20px;
   font-size: 15px;
@@ -1477,8 +1485,9 @@ body {
 
 .contact{
   width:100%;
-padding:15px;  
-/* margin-left: 5%; 
+/* padding:15px; 
+margin-top: 20px;  
+margin-left: 5%; 
 margin-right: 5%; */
 }
 
@@ -1490,7 +1499,7 @@ margin-right: 5%; */
   
 }
 .contact__header h1{
-  font-size:45px;
+  /* font-size:45px; */
   color: black;
 }
 .contact__main{
@@ -1530,7 +1539,7 @@ margin-right: 5%; */
   font-size:14px;
   color:black;
   font-weight:400;
-  font-family:sans-serif;
+  font-family: "Roboto", sans-serif;
   left:10px;
   transition:all .3s ease-in-out;
  
@@ -1564,7 +1573,7 @@ margin-right: 5%; */
   left:10px;
   color:#000;
   font-size:14px;
-  font-family:sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .form__textarea > textarea:focus+label{
@@ -1600,6 +1609,7 @@ form button{
 .contact__info h5{
   color: rgb(255, 255, 255);
   font-size: 50%;
+  font-family:"Roboto", sans-serif;
 }
 .contact__info span{
   display:flex;
@@ -1669,12 +1679,14 @@ form button{
 .work-right-text h2 {
   color: #fff;
   text-transform: uppercase;
+  font-family:"Roboto", sans-serif;
   font-size: 24px;
   margin-top: 5%;
 }
 
 .work-right-text h5 {
   color: #fff;
+  font-family:"Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 34px;
@@ -1740,7 +1752,7 @@ margin: 0 !important;
 }
 .cta-text h4 {
   color: white;
-
+  font-family:"Roboto", sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-bottom: 1px;
@@ -1791,7 +1803,7 @@ flex-wrap: wrap;
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family:"Roboto", sans-serif;
   margin-bottom: 20px;
 }
 .footer-social-icon a {
@@ -1814,6 +1826,7 @@ flex-wrap: wrap;
 
 .footer-widget-heading h3 {
   color: white;
+  font-family:"Roboto", sans-serif;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
@@ -1850,6 +1863,7 @@ flex-wrap: wrap;
 }
 .footer-widget ul li a {
   color: white;
+  font-family:"Roboto", sans-serif;
   text-transform: capitalize;
 }
 .footer-social-icon .linkedin-bg{
