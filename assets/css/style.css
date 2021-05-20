@@ -841,7 +841,7 @@ section {
 
 
 .button2 {
-    width:60%;
+    width:130px;
     height:40px;
     margin-top:15px;
     background-color:#1236ab;
@@ -856,7 +856,7 @@ section {
 
 .button2:hover {
   
-    width:60%;
+    width:130px;
     height:40px;
     margin-top:15px;
     background-color:#009efd;
@@ -877,8 +877,9 @@ section {
   color:#009efd;
 }
 .platform {
-  height: 130vh;
+  /* height: 130vh; */
   width:100%;
+  height: min-content;
 }
 .platform__wrapper{
    
@@ -888,17 +889,17 @@ section {
     display:grid;
     text-align: center;
     line-height: 30px;
-    grid-template-columns:.5fr .1fr;
+    grid-template-columns:25% 1fr;
     grid-gap:70px 100px;
     /* height: fit-content; */
 }
 
 .cards{
     display:grid;
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns:25% 25%;
+    grid-template-rows:1fr 1fr;
    /* grid-column-gap:20px; */
-    grid-gap:20px 100px;
+    grid-gap:10px 100px;
     
     
 }
@@ -928,7 +929,7 @@ section {
 } */
 .card__wrapper{
     width:100%;
-    height:50%;
+    /* height:50%; */
     margin:0;
     /* display:flex; */
     /* flex-direction:column; */
