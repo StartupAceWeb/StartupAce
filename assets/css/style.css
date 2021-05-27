@@ -357,10 +357,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 /* .d-flex{
   display: flex !important;
-<<<<<<< HEAD
-=======
-  
->>>>>>> refs/remotes/origin/main
 } */
 
 /*--------------------------------------------------------------
@@ -435,7 +431,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
  
   width:120px;
   height:48px;
-  border-radius:65px;
+  
   border:0;
   outline:0;
   background-color:#009efd;
@@ -728,7 +724,7 @@ section {
     font-size:16px;
     border:0;
     outline:0;
-    border-radius:10px;
+    
   }
   
 
@@ -743,7 +739,7 @@ section {
     font-size:16px;
     border:0;
     outline:0;
-    border-radius:10px;
+    
     transition: 0.5 ease-in-out;
   }
 
@@ -862,7 +858,7 @@ section {
     font-size:16px;
     border:0;
     outline:0;
-    border-radius:10px;
+  
   }
   
 
@@ -1607,7 +1603,7 @@ form button{
   font-size:16px;
   border:0;
   outline:0;
-  border-radius:10px;
+  
 }
 
 .contact__info{
@@ -1925,6 +1921,9 @@ flex-wrap: wrap;
 }
 .footer-widget ul{
   padding: 0;
+}
+.footer-widget ul li i{
+  color:white;
 }
 .footer-widget ul li a:hover {
   color: #0099ff;
