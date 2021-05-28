@@ -866,7 +866,7 @@ section {
 
 
 .button2 {
-    width:130px;
+    width:160px;
     height:40px;
     margin-top:15px;
     background-color:#1236ab;
@@ -874,6 +874,7 @@ section {
     font-size:16px;
     border:0;
     outline:0;
+    padding :5px;
   
   }
   
@@ -881,15 +882,16 @@ section {
 
 .button2:hover {
   
-    width:130px;
+    width:160px;
     height:40px;
+    padding:5px;
     margin-top:15px;
     background-color:#009efd;
     color:#fff;
     font-size:16px;
     border:0;
     outline:0;
-    border-radius:10px;
+    /* border-radius:10px; */
     transition: 0.5 ease-in-out;
   }
  
