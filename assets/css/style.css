@@ -122,7 +122,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu{
+
   margin-right:40px !important;
+
 }
 .nav-menu, .nav-menu * {
   margin: 0;
@@ -701,13 +703,15 @@ section {
   margin-top: 5px;
   color: #62607a;
 }
+
 /* .section-title h2 {
+
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
-  color: #c2b7b1;
+  color: #b4b1c2;
 }
 .section-title p {
   padding-bottom: 15px;
@@ -715,8 +719,10 @@ section {
   position: relative;
   font-size: 32px;
   font-weight: 700;
+
   color: #4e4039;
 } */
+
 
 .about i {
   font-size: 48px;
@@ -1770,7 +1776,9 @@ form button{
   bottom: 0;
   width: 50px;
   transition: left ease-in-out 0.3s;
+
   background: rgba(58, 57, 78, 0.6);
+
   text-align: center;
 }
 
@@ -1782,7 +1790,9 @@ form button{
 }
 
 .team .member .social a:hover {
+
   color: #331eeb;
+
 }
 
 .team .member .social i {
@@ -1791,7 +1801,9 @@ form button{
 }
 
 .team .member:hover .member-info {
+
   background: linear-gradient(0deg, rgba(58, 57, 78, 0.95) 0%, rgba(57, 58, 78, 0.95) 15%, rgba(255, 255, 255, 0) 100%);
+
   opacity: 1;
   transition: 0.4s;
 }
