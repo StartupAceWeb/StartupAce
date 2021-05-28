@@ -1460,8 +1460,11 @@ body {
     width: calc(50% - 30px);
     margin-bottom: 50px;
   }
+  .counter-up .content .box .text {
+    text-align: center;
+  }
 }
-@media screen and (max-width: 580px) {
+/* @media screen and (max-width: 580px) {
   .counter-up .content .box{
     width: 100%;
   }
@@ -1473,7 +1476,7 @@ body {
   .counter-up{
     padding: 30px 20px 0 20px;
   }
-}
+} */
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
