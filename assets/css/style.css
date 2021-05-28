@@ -743,10 +743,12 @@ section {
   /* word-spacing: 0em; */
 }
 .button1 {
-    width:20% !important;
+    width:110px !important;
     height:40px;
     margin-top:15px;
-    background-color:#009efd;
+    /* background-color:#009efd; */
+    background-color:#0400fd;
+
     color:#fff;
     font-size:16px;
     border:0;
@@ -760,10 +762,10 @@ section {
 
 .button1:hover {
   
-    width:20% !important;
+    width:110px !important;
     height:40px;
     margin-top:15px;
-    background-color:#0400fd;
+    background-color:#1b19ac;
     color:#fff;
     font-size:16px;
     border:0;
