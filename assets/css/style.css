@@ -439,6 +439,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background-color:#009efd;
   color:#fff;
 }
+.slide-content button:hover {
+  background-color:#0011fd;
+}
+
 .owl-dots {
   width:100%;
   text-align:center;
@@ -756,7 +760,7 @@ section {
     width:20%;
     height:40px;
     margin-top:15px;
-    background-color:#009efd;
+    background-color:#0400fd;
     color:#fff;
     font-size:16px;
     border:0;
@@ -875,7 +879,7 @@ section {
     width:160px;
     height:40px;
     margin-top:15px;
-    background-color:#1236ab;
+    background-color:#009efd;
     color:#fff;
     font-size:16px;
     border:0;
@@ -892,7 +896,7 @@ section {
     height:40px;
     padding:5px;
     margin-top:15px;
-    background-color:#009efd;
+    background-color:#1236ab;
     color:#fff;
     font-size:16px;
     border:0;
@@ -1958,7 +1962,7 @@ form button{
 }
 
 #footer1 .footer-newsletter form input[type="submit"]:hover {
-  background: #009efd;
+  background: #2600fd;
 }
 /*--------------------------------------------------------------
 # Footer
