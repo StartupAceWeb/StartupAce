@@ -2133,6 +2133,7 @@ flex-wrap: wrap;
 } */
 .copyright-area {
   background: #202020;
+  width: 100% !important;
   padding: 25px 0;
 }
 .copyright-text p {
