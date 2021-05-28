@@ -605,7 +605,7 @@
                     
                 </div>
             </div>
-            <div class="card extra" data-aos="zoom-in" data-aos-delay="200">
+            <div class="card" data-aos="zoom-in" data-aos-delay="200">
                 <div class="card__wrapper">
                     <div class="icon1">
                       <i class="fa fa-weixin"></i>
@@ -689,6 +689,7 @@
             </div>
         </div>
         <button class="button2" id="showbtn" data-aos="zoom-in" data-aos-delay="200">View All Services</button>
+        <button class="button2" id="hidebtn" data-aos="zoom-in" data-aos-delay="200" style="display: none;">Hide Services</button>
         </div>
         
       </div>
@@ -893,11 +894,12 @@
 <!-- blog section end  -->
 <!-- Featured on -->
          <section id="FeaturedOn">
-      <div class="container">
+      <!-- <div class="container"> -->
         <div class="section-title" data-aos="fade-up">
-          <h4  style="font-family: "Roboto",sans-serif ;">AS FEATURED ON</h4>
+          <h4  style="font-family: Roboto,sans-serif ;">AS FEATURED ON</h4>
           <p></p>
         </div>
+        <!-- </div> -->
     </section>
 <!-- Counter  -->
  <div class="counter-up" value="false">
@@ -1442,14 +1444,25 @@
   </script>
  <script>
       $(document).ready(function(){
-        $('#showbtn').click(function(){
-          $('.platform').css({
-        
-        'height':'auto'
-    });          
-    $(".extra").show("slow","linear");
-
+        $('#showbtn').click(function()
+        {
+          $('.platform').css({ 'height':'auto'});          
+          $(".extra").show("slow","linear");
           $("#showbtn").hide();
+          $("#hidebtn").show("slow","linear");
+          
+        })
+      })
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('#hidebtn').click(function()
+        {
+          $('.platform').css({ 'height':'auto'});          
+          $(".extra").hide();
+          $("#hidebtn").hide();
+          $("#showbtn").show("slow","linear");
+          
         })
       })
     </script>
