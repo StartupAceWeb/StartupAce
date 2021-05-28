@@ -365,7 +365,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .home-slide {
   width:100%;
-  height:90vh;
+  height:100vh;
 
 }
 .slide {
@@ -441,7 +441,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width:100%;
   text-align:center;
   position:absolute;
-  bottom:1%;
+  bottom:0px;
 }
 .owl-dots span{
   width:10px !important;
