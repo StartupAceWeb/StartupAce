@@ -702,22 +702,38 @@ section {
   margin-top: 5px;
   color: #62607a;
 }
-
-.section-title h2 {
+.section-title1{
+  text-align: left;
+}
+.section-title1 h2 {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
   color: #b4b1c2;
+  
 }
-.section-title p {
-  padding-bottom: 15px;
+.section-title1 p {
+  padding-bottom: 20px;
   margin-bottom: 15px;
   position: relative;
   font-size: 32px;
   font-weight: 700;
   color: #39394e;
+  
+}
+
+.section-title1 p:after{
+  content:"";
+  display:block;
+  width: 6em;
+  max-width:20%;
+  border-bottom: 2px solid #000;
+  /* margin: 2em auto 0; */
+  padding-bottom: 10px;
+
+  
 }
 
 .about i {
