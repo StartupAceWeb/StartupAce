@@ -550,6 +550,89 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height:32vh;
 }
 }
+#mob-home a.banner-btn{
+  background-color: #ffce32;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  color: #111;
+  margin-top: 20px!important;
+}
+#mob-home a.banner-btn:hover{
+  border: 3px solid #ffce32;
+  background-color: transparent;
+  color: #ffce32;
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #mob-home{
+    display: none;
+  }
+  #home{
+    display: block;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #mob-home{
+    display: none;
+  }
+  #home{
+    display: block;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #home{
+    display: none;
+  }
+  #mob-home{
+    display: block;
+  }
+  #mob-home img{
+    height: 50vh;
+  }
+  .about .about-img img {
+    margin-top: -100px!important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #home{
+    display: none;
+  }
+  #mob-home{
+    display: block;
+  }
+  .about .about-img img {
+    margin-top: 550px!important;
+  }
+}
+
+@media only screen and (min-width: 460px){
+  #mob-home img{
+    height: 92vh;
+  }
+  .about .about-img img {
+    margin-top: 110px!important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #mob-home{
+    display: none;
+  }
+  #home{
+    display: block;
+  }
+  .about .about-img img {
+    margin-top: -1rem!important;
+  }
+}
+
 @media screen and (max-width:360px){
 
   .content h1{
@@ -670,9 +753,6 @@ section {
 }
 
 @media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    /* display: block !important; */
-  }
   .breadcrumbs ol {
     display: block;
   }
@@ -806,8 +886,8 @@ padding-bottom: 15px;
   font-size: 14px;
 }
   .about .about-img img {
-    height: 25vh;
-    
+    height: 30vh;
+    margin-top: -1rem;
   }
   .about {
     height: auto;
