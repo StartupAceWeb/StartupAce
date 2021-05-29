@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #header .logo img {
   padding: 0;
-  margin-left: 40px;
+  /* margin-left: 40px; */
   max-height: 55px;
 }
 
@@ -119,11 +119,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu{
-
-  margin-right:40px !important;
-
-}
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -424,18 +419,17 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-bottom: 20px;;
 }
 .slide-content button {
- 
-  width:120px;
-  height:48px;
   border-radius: .25rem;
-  padding: .375rem .75rem;
+  padding: .8rem 1.5rem;
   border:0;
   outline:0;
   background-color:#009efd;
   color:#fff;
 }
 .slide-content button:hover {
-  background-color:#0011fd;
+  background-color:transparent;
+  border: 2px solid #009efd;
+  color: #009efd;
 }
 
 .owl-dots {
@@ -484,8 +478,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
       font-size:12px;
   }
   .content button{
-      width
-      :95px;
+      width:95px;
       height:38px;
       font-size:9px;
   }
@@ -549,12 +542,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #mob-home a.banner-btn{
   background-color: #ffce32;
   padding: 0.8rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 0.25rem;
   color: #111;
   margin-top: 20px!important;
+  cursor: pointer;
+  text-decoration: none;
 }
 #mob-home a.banner-btn:hover{
-  border: 3px solid #ffce32;
+  border: 2px solid #ffce32;
   background-color: transparent;
   color: #ffce32;
 }
@@ -812,35 +807,23 @@ section {
   color: #5a6570;
 }
 .button1 {
-    width:110px !important;
-    height:40px;
     margin-top:15px;
     background-color:#0400fd;
-
     color:#fff;
     font-size:16px;
-    border:0;
-    outline:0;
+    outline: 0;
+    border: 0;
     border-radius: .25rem;
-    padding: 0.375rem 0.75rem;
-    
+    padding: 0.6rem 1.3rem!important;
   }
   
 
 
 .button1:hover {
-  
-    width:110px !important;
-    height:40px;
-    margin-top:15px;
-    background-color:#1b19ac;
-    color:#fff;
+    background-color: transparent;
+    color:#0400fd;
     font-size:16px;
-    border:0;
-    outline:0;
-    padding: 0.375rem 0.75rem;
-    border-radius: .25rem;
-    
+    border:2px solid #0400fd;
     transition: 0.5 ease-in-out;
   }
 
@@ -1941,7 +1924,7 @@ form button{
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
+  padding: 0.6rem 1.1rem;
   background: #009efd;
   color: #fff;
   transition: 0.3s;
