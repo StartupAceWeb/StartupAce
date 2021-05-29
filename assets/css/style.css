@@ -386,8 +386,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   left:0;
   width:100%;
   height: 100vh;
-
-  /* background-color:rgba(0, 0, 0, 0.349); */
 }
 .slide-1 {
   background-image: url(../img/undraw_blogging_vpvv.svg);
