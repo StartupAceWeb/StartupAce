@@ -1043,7 +1043,7 @@ padding-bottom: 15px;
     grid-template-columns:25% 25%;
     grid-template-rows:1fr 1fr;
    /* grid-column-gap:20px; */
-    grid-gap:10px 25%;
+    grid-gap:25px 25%;
     
     
 }
