@@ -790,7 +790,32 @@ section {
   text-align: left;
 }
 
-.section-title1 h1:after{
+
+
+ .section-title1 h2 {
+
+
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 0;
+  line-height: 1px;
+  margin-bottom: 15px;
+  color: #b4b1c2;
+  
+}
+.section-title1 p {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  position: relative;
+  font-size: 32px;
+  font-weight: 700;
+
+  color: #39394e;
+  
+}
+
+.section-title1 p:after{
+
   content:"";
   display:block;
   border-bottom: 2px solid #1236ab;
@@ -1976,6 +2001,7 @@ section {
   top:-10px;
   background:#fff;
 }
+
 
 form button{
   /* width: 30%; */
