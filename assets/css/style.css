@@ -714,7 +714,7 @@ section {
 }
 
 
-/* .section-title h2 {
+ .section-title1 h2 {
 
 
   font-size: 24px;
@@ -734,7 +734,7 @@ section {
 
   color: #39394e;
   
-}/*
+}
 
 .section-title1 p:after{
   content:"";
@@ -1677,7 +1677,7 @@ margin-right: 5%; */
   background:#fff;
 }
 
-form button{
+.form button{
   width: 30%;
   padding: 0px20px;
 
