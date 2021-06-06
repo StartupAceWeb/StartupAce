@@ -789,40 +789,31 @@ section {
 .section-title1{
   text-align: left;
 }
-
-
-
- .section-title1 h2 {
-
-
+ .section-title1 p {
   font-size: 24px;
   font-weight: 700;
-  padding-bottom: 0;
+  padding-bottom: 15px;
   line-height: 1px;
   margin-bottom: 15px;
   color: #b4b1c2;
   
 }
-.section-title1 p {
-  padding-bottom: 20px;
+.section-title1 h1 {
+  padding-bottom: 10px;
   margin-bottom: 15px;
   position: relative;
   font-size: 32px;
   font-weight: 700;
-
-  color: #39394e;
-  
+  color: #39394e;  
 }
 
-.section-title1 p:after{
-
+.section-title1 h1:after{
   content:"";
   display:block;
   border-bottom: 2px solid #1236ab;
   width: 60px !important;
   height: 2px !important; 
-  padding-bottom: 15px;
-  
+  padding-bottom: 15px;  
 }
 
 .about i {
@@ -992,13 +983,26 @@ section {
     font-size: 20px;
     padding-bottom: 10px;
   }
-.platform__wrapper h3 {
+.platform__wrapper .textual-info h4 {
+  color: #b1b7c2;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .platform__wrapper h1 {
   font-weight: 700;
-  font-size: 60px;
-  color:#3A64D6;
+  font-size: 40px;
+  color:#111;
+}
+.platform__wrapper .textual-info h1:after{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #1236ab;
+  margin-top: 12px;
+  /* bottom: 0; */
+  left: calc(50% - 30px); 
 }
 .platform {
   width:100%;
@@ -1170,7 +1174,7 @@ section {
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #eee;
+  color: #ffce32;
   cursor: pointer;
   font-size: 2em;
   top: 50%;
@@ -1185,7 +1189,7 @@ section {
 }
 
 .testim .arrow:hover {
-  color: #3A64D6;
+  color: #ffce32;
 }
 
 .testim .arrow.left {
@@ -1226,8 +1230,8 @@ section {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: #3A64D6;
-  border-color: #3A64D6;
+  background: #ffce32;
+  border-color: #ffce32;
 }
 
 .testim .cont {
@@ -1268,7 +1272,7 @@ section {
 }
 
 .testim .cont div p.post-title{
-  color: #6c90f3;
+  color: #3A64D6;
 }
 
 .testim .cont div p.review {
@@ -2282,7 +2286,7 @@ form button{
   width: 60px;
   height: 2px;
   background: #1236ab;
-  bottom: 0;
+  top: 2rem;
   left: calc(50% - 30px);
 }
 #footer1 .footer-newsletter form {
