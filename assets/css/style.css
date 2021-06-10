@@ -768,7 +768,7 @@ section {
 }
 #abt-desc{
   text-align: justify;
-  line-height: 40px;
+  line-height: 30px;
   text-justify: inter-word;
 }
 .about h3 {
@@ -1083,6 +1083,7 @@ section {
    font-size: 14px;
   /* line-height: 28px; */
   margin: auto 10px!important;
+  
 }
 
 .card__wrapper > p{
