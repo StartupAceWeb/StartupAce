@@ -1070,8 +1070,8 @@ section {
 }
 
   .icon1 img{
-    width: 70px;
-    height: 70px;
+    width: 110px;
+    height: 80px;
     
   }
   
@@ -1175,7 +1175,7 @@ section {
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #ffce32;
+  color: #3A64D6;
   cursor: pointer;
   font-size: 2em;
   top: 50%;
@@ -1190,7 +1190,7 @@ section {
 }
 
 .testim .arrow:hover {
-  color: #ffce32;
+  color: #3A64D6;
 }
 
 .testim .arrow.left {
@@ -1231,8 +1231,8 @@ section {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: #ffce32;
-  border-color: #ffce32;
+  background: #3A64D6;
+  border-color: #3A64D6;
 }
 
 .testim .cont {
@@ -2352,6 +2352,9 @@ ul {
   position: relative;
   width: 100% !important;
   display: flex !important;
+}
+#contact{
+  padding: 0!important;
 }
 .footer-cta {
   border-bottom: 1px solid #363637;
