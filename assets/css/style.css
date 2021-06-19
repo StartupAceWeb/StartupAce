@@ -678,7 +678,9 @@ section {
 }
 
 .section-bg {
-  background-color: #f5f7fe;
+  /* background-color: #f5f7fe; */
+  background-image: url(../img/background2.png);
+  background-size: cover;
 }
 
 .section-title {
@@ -702,7 +704,7 @@ section {
   font-family: "Nato Sans",sans-serif ;
   font-size: 32px;
   font-weight: 700;
-  color: #393e4e;
+  color: #000;
 }
 
 .section-title h1::after {
@@ -1159,9 +1161,13 @@ section {
   cursor: default;
 }
 
+
 .testim {
   width: 100%;
   padding: 60px auto!important;
+  background-image: url(../img/testimony1.jpg);
+  /* background-image: url(../img/testimony.jpg); */
+  background-size: cover;
 }
 
 .testim .wrap {
@@ -1768,6 +1774,7 @@ section {
 #FeaturedOn {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
+  
 }
 
 .wrapper{
@@ -2082,7 +2089,7 @@ form button{
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+
   padding: 60px 0;
 }
 
@@ -2270,6 +2277,8 @@ form button{
   padding: 50px 0;
   text-align: center;
   font-size: 15px;
+  background-image: url(../img/background2.png);
+  background-size: cover;
 }
 
 #footer1 .footer-newsletter h1 {
