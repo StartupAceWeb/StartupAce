@@ -558,9 +558,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   text-decoration: none;
 }
 #mob-home a.banner-btn:hover{
-  /* border: 2px solid #ffce32;
-  background-color: transparent;
-  color: #111; */
   box-shadow: 4px 4px 4px 0px #DADCDD;
 }
 /* Large devices (laptops/desktops, 992px and up) */
@@ -592,10 +589,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     display: block;
   }
   #mob-home img{
-    height: 50vh;
+    height: 55vh!important;
+  }
+  #mob-home .card-text{
+    margin-top: -150px;
   }
   .about .about-img img {
-    margin-top: -100px!important;
+    margin-top: -80px!important;
   }
 }
 
@@ -608,21 +608,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     display: block;
   }
   .about .about-img img {
-    margin-top: 550px!important;
-  }
-}
-
-@media only screen and (min-width: 460px){
-  #mob-home img{
-    height: 92vh;
-  }
-  .about .about-img img {
-    margin-top: 110px!important;
+    margin-top: -80px!important;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1050px) {
   #mob-home{
     display: none;
   }
@@ -1303,7 +1294,7 @@ section {
 
 #FeaturedOn {
   padding-top: 0px !important;
-  padding-bottom: 0px !important;  
+  padding-bottom: 30px !important;  
   background-image: url(../img/background2.png);
   background-size: cover;
 }
@@ -1382,6 +1373,18 @@ section {
   .counter-up .content .box{
     width: calc(50% - 30px);
     margin-bottom: 50px;
+  }
+  .counter-up .content .box .text {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 400px) {
+  .counter-up{
+    padding: 10px 50px 0 50px;
+  }
+  .counter-up .content .box{
+    width: calc(100% - 30px);
+    margin-bottom: 25px;
   }
   .counter-up .content .box .text {
     text-align: center;
@@ -1623,7 +1626,6 @@ form button{
 # Team
 --------------------------------------------------------------*/
 .team {
-
   padding: 60px 0;
 }
 
@@ -1680,7 +1682,7 @@ form button{
   text-align: center;
 }
 .team .member img{
-  height: 280px;
+  min-height: 280px;
 }
 .team .member .social a {
   transition: color 0.3s;
