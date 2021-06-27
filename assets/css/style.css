@@ -617,6 +617,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   .about .about-img img {
     margin-top: -80px!important;
   }
+  #mob-home .card-text h1{
+    letter-spacing: 1px;
+  }
+  #mob-home .card-text h1{
+    font-size: 2.3rem;
+  }
+  #mob-home .card-text span{
+    font-size: 1.5rem!important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -767,7 +776,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  height: 80vh;
+  height: 90vh;
 }
 #abt-desc{
   text-align: justify;
@@ -1196,6 +1205,7 @@ section {
 #testimonial .carousel .card .review{
   color: #fff;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 /* #testimonial .owl-carousel .nav-btn{
     position: absolute;
@@ -1266,14 +1276,23 @@ section {
 /*--------------------------------------------------------------
 # blog
 --------------------------------------------------------------*/
-
+.card{
+  min-height: 380px;
+}
 .card-img {
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  height: 250px;
 }
 
 .card-title {
   margin-bottom: 0.3rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#blog .card-text{
+  font-size: 15px;
 }
 
 .cat {
