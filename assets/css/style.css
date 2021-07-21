@@ -639,7 +639,7 @@ section {
   font-size: 15px;
   color: #5a6570;
 }
-.button1 {
+.about a {
     margin-top:15px;
     background-color:#ffce32;
     color:#111;
@@ -649,16 +649,16 @@ section {
     border-radius: .25rem;
     padding: 0.6rem 1.3rem!important;
   }
-  
 
 
-.button1:hover {
+.about a:hover {
     /* background-color: transparent;
     color:#0400fd;
     font-size:16px;
     border:2px solid #0400fd; */
     box-shadow: 4px 4px 4px 0px #DADCDD;
     transition: 0.5 ease-in-out;
+    color:#000;
   }
 
 #line {
