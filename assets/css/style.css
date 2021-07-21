@@ -87,8 +87,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0;
   background: rgb(255, 255, 255);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  
-  
 }
 
 /* #header .logo h1 {
@@ -170,7 +168,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: rgb(255, 255, 255);
+  /* background: rgb(255, 255, 255); */
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -578,7 +576,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  height: 90vh;
+  height: 135vh;
 }
 #abt-desc{
   text-align: justify;
@@ -641,7 +639,7 @@ section {
   font-size: 15px;
   color: #5a6570;
 }
-.button1 {
+.about a {
     margin-top:15px;
     background-color:#ffce32;
     color:#111;
@@ -651,16 +649,16 @@ section {
     border-radius: .25rem;
     padding: 0.6rem 1.3rem!important;
   }
-  
 
 
-.button1:hover {
+.about a:hover {
     /* background-color: transparent;
     color:#0400fd;
     font-size:16px;
     border:2px solid #0400fd; */
     box-shadow: 4px 4px 4px 0px #DADCDD;
     transition: 0.5 ease-in-out;
+    color:#000;
   }
 
 #line {
@@ -1082,6 +1080,7 @@ section {
   padding-bottom: 30px !important;  
   background-image: url(../img/background2.png);
   background-size: cover;
+  margin-top:50px;
 }
 #FeaturedOn .section-title{
   padding-bottom: 10px;
@@ -1137,6 +1136,10 @@ section {
   flex-direction: column;
   padding: 10px;
 }
+/* .counter-up .content .box:hover{
+  background-color: rgb(97, 132, 196);
+  box-shadow: 4px 4px 4px 0px #DADCDD;
+} */
 .content .box .icon{
   font-size: 30px;
   color: #111;
@@ -1338,11 +1341,7 @@ section {
 
 
 form button{
-  /* width: 30%; */
   padding: 0.6rem 1.4rem;
-
-  
-  /* height:48px; */
   margin-top:15px;
   background-color:#009efd;
   color:#fff;
@@ -1847,8 +1846,6 @@ margin: 0 !important;
 @media only screen and (max-width: 790px){
   .cards{
     grid-template-columns: 1fr;
-    
-    
   }
   .card__wrapper h3
   {
