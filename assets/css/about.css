@@ -108,7 +108,7 @@ h1 {
 }
 /* about-us-content end */
 
- p {
+#about-us-content p {
     line-height: 30px;
 }
 
@@ -377,7 +377,35 @@ h1 {
   content: "\eab2" !important;
 }
 
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  right: 15px;
+  bottom: 15px;
+  background: #ffce32;
+  color: #ffffff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
 
+.back-to-top i {
+  font-size: 25px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: rgb(255, 255, 255);
+  background: #009efd;
+  transition: background 0.2s ease-in-out;
+}
   
 /*--------------------------------------------------------------
 # Footer
@@ -505,9 +533,7 @@ h1 {
   .footer-widget ul li {
     padding: 5px 0;
       display: flex;
-      align-items: center;
-      
-    
+      align-items: center; 
   }
   .footer-widget ul{
     padding: 0;
